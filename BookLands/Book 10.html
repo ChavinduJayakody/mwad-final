@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book-detailpage | Booklands</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?
+      family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!------------------ Header ------------------>
+    <div class="header">
+      <div class="navbar ">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" width="50%" alt="Booklands-Logo"
+          /></a>
+        </div>
+      <!----------  Nav Bar ------------------>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collection.html"><b>Collection</b></a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="account.html">Add Books</a></li>
+          </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+  </div>
+
+    <!-- ----------single product details------------- -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/Book 10.jpg" alt="Book10" width="68%" />
+        </div>
+        <div class="col-2">
+          <h1>The Invited by JENNIFER MCMAHON</h1>
+          <h4>Rs1371.00</h4>
+          <a href="" class="btn">Add To Cart</a>
+           
+          <br />
+          <h4>Description<i class="fa fa-indent"></i></h4>
+
+          <p>
+            In a quest for a simpler life, helen and nate have abandoned the comforts of suburbia to take up residence on forty-four acres of rural land where they will begin the ultimate, aspirational do-it-yourself project: building the house of their dreams. When they discover that this beautiful property has a dark and violent past, helen, a former history teacher, becomes consumed by the local legend of hattie breckenridge, a woman who lived and died there a century ago.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------footer------------------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-3">
+            <h3>Branches</h3>
+              <h4><b> Head Office:</b></h4>
+              98/B <br>
+              Colombo 07, <br>
+              <br>
+              <h4><b> Branches:</b></h4>
+              Matara <br>
+              <br>
+
+          </div>
+          <div class="footer-col-3"> 
+            <h3>Contact Us</h3>
+            <h4><b> Email:</b></h4>booklands@official.com
+            <h4><b> Phone:</b></h4>+94 112 708 969
+          </div>
+          <div class="footer-col-3">
+            <h3>Follow us</h3>
+                <img src="images/fb ico.png" alt="Facebook">
+                <img src="images/twitter ico.png" alt="twitter">
+                <img src="images/Instagram ico.png" alt="Instagram">
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2021 - Booklands</p>
+      </div>
+    </div>
+    <!-- ---------Javascript for toggle menu------------- -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
+i
